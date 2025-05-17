@@ -2,7 +2,12 @@
 
 An Zygisk Module Template based on zygisk-module-sample. Both cmake and ndk-build are supported.
 
+
 ## Usage
+
+```bash
+git clone  --recursive git@github.com:jimmy947788/zygisk-inject-gadget.git
+```
 
 1. Edit your moduleId in [build.gradle.kts](./build.gradle.kts) (It's also your module's soname).  
 2. Edit other module info in build.gradle.kts or module/template/module.prop.  
